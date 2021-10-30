@@ -1,0 +1,34 @@
+{
+  "name": "uetiko/linio",
+  "description": "Linio challenge: technical exam",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "uetiko",
+      "email": "uetiko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4":{
+      "Uetiko\\Linio\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Uetiko\\Linio\\Test\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.10",
+    "phploc/phploc": "*",
+    "phpstan/phpstan": "*",
+    "phpmd/phpmd": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "squizlabs/php_codesniffer": "*",
+    "phpmetrics/phpmetrics": "*"
+  }
+}
