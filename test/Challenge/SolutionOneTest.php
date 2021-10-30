@@ -7,13 +7,15 @@ namespace Uetiko\Linio\Test\Challenge;
 use PHPUnit\Framework\TestCase;
 use Uetiko\Linio\Challenge\ProblemSolved;
 use Uetiko\Linio\Challenge\SolutionOne;
+use Uetiko\Linio\Challenge\SolutionTwo;
 
 class SolutionOneTest extends TestCase
 {
     public function instanceOneProvider(): array
     {
         return [
-            [new SolutionOne(0, 100)]
+            [new SolutionOne(0, 100)],
+            [new SolutionTwo(0, 100)]
         ];
     }
     /**
